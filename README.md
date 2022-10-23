@@ -1,4 +1,4 @@
-# Devialet Volume
+# Devialet Remote
 Command line tool written in Python to control Devialet devices using the DOS2 operating system.
 
 I created this project because I needed to control the volume of my Devialet DOS2-based speaker from my Apple TV remote. The speaker is connected to my TV with an optical cable, which does not allow the TV to change the speaker's volume.
