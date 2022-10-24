@@ -3,7 +3,7 @@ This project is a command line tool written in **Python** to control **Devialet*
 
 I created this project because I needed to control the volume of my **Devialet** speaker from my **Apple TV** remote. The speaker is connected to my TV with an optical cable, which does not allow the TV to change the speaker's volume.
 
-After a lot of unsuccessful attemps to implement **HDMI-CEC** with my **Samsung TV**, I decided to use a **FLIRC USB** IR receiver and it works perfectly.
+After a lot of unsuccessful attemps to implement **HDMI-CEC** with my **Samsung TV**, I decided to use a **FLIRC USB IR receiver** and it works flawlessly.
 
 If you have any TV remote compatible with IR control (**Apple TV Remote**, **Samsung Smart TV Remote**, etc.), you can use the remote with this tool (with the FLIRC receiver) to control your speaker.
 
