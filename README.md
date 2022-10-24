@@ -75,8 +75,8 @@ The main script for the tool is the remote.py script. You can get help for any c
 
 There are two ways of using this tool, you can either specify:
 
-- The Devialet speaker's IP address, if it is fixed.
-- The Devialet speaker's DeviceId, if the speaker's IP address might change.
+- The Devialet speaker's **IP address**, if it is fixed.
+- The Devialet speaker's **DeviceId**, if the speaker's IP address might change.
 
 ## List
 
