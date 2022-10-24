@@ -102,9 +102,9 @@ python remote.py list sources
 
 For this tool to work, you need to set some values in the **config.py** file.
 
-1. If you want to use your speaker's DeviceId, set the *config_devialet_device_id* variable to your speaker's DeviceId). (Skip if using IP)
+1. If you want to use your speaker's **DeviceId**, set the *config_devialet_device_id* variable to your speaker's DeviceId). (Skip if using IP)
 
-2. If you want to use your speaker's IP address, set the *config_devialet_ip* variable to your speaker's IP address. (Skip if using DeviceId)
+2. If you want to use your speaker's **IP address**, set the *config_devialet_ip* variable to your speaker's IP address. (Skip if using DeviceId)
 
 3. If you want to specify a source to switch to when using playback functions (play, pause, mute, unmute), set the *config_devialet_source_id* to your source's SourceId.
 
