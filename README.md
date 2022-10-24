@@ -1,19 +1,17 @@
 # Devialet Remote
-Command line tool written in Python to control Devialet devices using the DOS2 operating system.
+This prohect is a command line tool written in **Python** to control **Devialet** speakers using the **DOS2** operating system.
 
-I created this project because I needed to control the volume of my Devialet DOS2-based speaker from my Apple TV remote. The speaker is connected to my TV with an optical cable, which does not allow the TV to change the speaker's volume.
+I created this project because I needed to control the volume of my **Devialet** speaker from my **Apple TV** remote. The speaker is connected to my TV with an optical cable, which does not allow the TV to change the speaker's volume.
 
-After a lot of unsuccessful attemps to implement HDMI-CEC with my Samsung TV, I decided to use a **FLIRC USB** IR receiver and it works perfectly.
+After a lot of unsuccessful attemps to implement **HDMI-CEC** with my **Samsung TV**, I decided to use a **FLIRC USB** IR receiver and it works perfectly.
 
-If you have any TV remote compatible with IR control (Apple TV Remote, Samsung Smart TV Remote, etc.), you can use the remote with this tool (with the FLIRC receiver) to control your speaker.
+If you have any TV remote compatible with IR control (**Apple TV Remote**, **Samsung Smart TV Remote**, etc.), you can use the remote with this tool (with the FLIRC receiver) to control your speaker.
 
 This tool will also enable you to switch the speaker's input source to anything you wish by double-pressing the mute button on your remote.
 
 # Requirements
 
-As this tool is written in Python, everything should be fine on pretty much any configuration.
-
-I'm running this tool on a Raspberry Pi 3B, and if you wish to use the FLIRC dongle on a Raspberry Pi, I suggest using **Raspberry Pi OS Full (32-bit) Bullseye** as an operating system because I have had issued with the FLIRC software on lite and standard versions.
+I'm running this tool on a Raspberry Pi 3B, and if you wish to use the **FLIRC dongle** on a **Raspberry Pi**, I suggest using **Raspberry Pi OS Full (32-bit) Bullseye** as an operating system because I have had issued with the **FLIRC** software on lite and standard versions.
 
 ## Setting-up the Pi for FLIRC (optional)
 
