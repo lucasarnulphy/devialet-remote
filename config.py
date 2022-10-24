@@ -17,7 +17,7 @@ config_devialet_source_id = "current"
 config_listener_dict = {}
 config_listener_dict[Key.f1] = "action.volume_down()"
 config_listener_dict[Key.f2] = "action.volume_up()"
-config_listener_dict[Key.f3] = "action.mute_toggle()"
+config_listener_dict[Key.f3] = "action.play(); action.mute_toggle()"
 
 # Shared dicts, do not edit this part
 devices_dict = dict()

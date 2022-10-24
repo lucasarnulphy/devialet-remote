@@ -130,4 +130,4 @@ To start the listener, you can use the listener start command.
 python remote.py listener start
 ```
 
-> If you've set the **config_devialet_source_id** variable to something else than current, you can use any of the play, pause, mute, unmute actions to switch your speaker's source. For instance, if you're listening music on spotify and want to switch to the optical source, you can double-press the mute_toggle button, which will mute then unmute the speaker, and change the source.
+> If you've set the **config_devialet_source_id** variable to something else than current, you can use the play action to switch your speaker's source. Using the listener's default configuration, if you're listening music on spotify and want to switch to the optical source, you can double-press the mute_toggle button, which will mute then unmute the speaker, and change the source.
