@@ -5,7 +5,7 @@ I created this project because I needed to control the volume of my **Devialet**
 
 After a lot of unsuccessful attemps to implement **HDMI-CEC** with my **Samsung TV**, I decided to use a **FLIRC USB IR receiver** and it works flawlessly.
 
-If you have any TV remote compatible with IR control (**Apple TV Remote**, **Samsung Smart TV Remote**, etc.), you can use the remote with this tool (with the FLIRC receiver) to control your speaker.
+If you have any TV remote compatible with IR control (**Apple TV Remote**, **Samsung Smart TV Remote**, etc.), you can use the remote with this tool to control your speaker.
 
 This tool will also enable you to switch the speaker's input source to anything you wish by double-pressing the mute button on your remote.
 
