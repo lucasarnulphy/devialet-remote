@@ -102,13 +102,13 @@ python remote.py list sources
 
 For this tool to work, you need to set some values in the **config.py** file.
 
-1. If you want to use your speaker's **DeviceId**, set the *config_devialet_device_id* variable to your speaker's DeviceId). (Skip if using IP)
+1. If you want to use your speaker's **DeviceId**, set the **config_devialet_device_id** variable to your speaker's DeviceId). (Skip if using IP)
 
-2. If you want to use your speaker's **IP address**, set the *config_devialet_ip* variable to your speaker's IP address. (Skip if using DeviceId)
+2. If you want to use your speaker's **IP address**, set the **config_devialet_ip** variable to your speaker's IP address. (Skip if using DeviceId)
 
-3. If you want to specify a source to switch to when using playback functions (play, pause, mute, unmute), set the *config_devialet_source_id* to your source's SourceId.
+3. If you want to specify a source to switch to when using playback functions (play, pause, mute, unmute), set the **config_devialet_source_id** to your source's SourceId.
 
-4. If you need to edit the listener's configuration (change default keys, add other bindings, etc.), everything happens in the *config_listener_dict* variable.
+4. If you need to edit the listener's configuration (change default keys, add other bindings, etc.), everything happens in the **config_listener_dict** variable.
 
 ### Actions
 
@@ -130,4 +130,4 @@ To start the listener, you can use the listener start command.
 python remote.py listener start
 ```
 
-> If you've set the *config_devialet_source_id* variable to something else than current, you can use any of the play, pause, mute, unmute actions to switch your speaker's source. For instance, if you're listening music on spotify and want to switch to the optical source, you can double press the mute_toggle button, which will mute then unmute the speaker, and change the source.
+> If you've set the **config_devialet_source_id** variable to something else than current, you can use any of the play, pause, mute, unmute actions to switch your speaker's source. For instance, if you're listening music on spotify and want to switch to the optical source, you can double-press the mute_toggle button, which will mute then unmute the speaker, and change the source.
